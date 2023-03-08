@@ -1,10 +1,6 @@
-/*  Mooie kleurpalletten
-        1. https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41                                        (Groen)
-        2. https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8            (Blauw)
-        3. https://coolors.co/palette/590d22-800f2f-a4133c-c9184a-ff4d6d-ff758f-ff8fa3-ffb3c1-ffccd5-fff0f3     (Rood)
-        4. https://coolors.co/palette/ffd6ff-e7c6ff-c8b6ff-b8c0ff-bbd0ff                                        (Roze)
+/*  Bron kleurenpalet:
+        https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
 */
-
 
 :root {
     --midnight-blue: #03045eff;
