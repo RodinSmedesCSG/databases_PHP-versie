@@ -103,6 +103,10 @@ textarea {
     resize: none;
 }
 
+fieldset {
+    border: none;
+}
+
 /* Classes (.) en Ids (#)  */
 
 .container {
@@ -150,7 +154,7 @@ textarea {
 }
 
 .postcontainer {
-    width: 896px;
+    width: 93%;
     height: 200px;
     margin: 20px;
     padding: 10px;

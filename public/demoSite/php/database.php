@@ -3,7 +3,7 @@ $check = $check.'database.php geladen.<br>';
 $servernaam = "localhost";
 $gebruikersnaam = "root"; //$gebruikersnaam = "username";
 $wachtwoord = ""; // $wachtwoord = "password";
-$database = "project";
+$database = "ForumVoorScholierenDB";
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
 
 if (!$DBverbinding) {

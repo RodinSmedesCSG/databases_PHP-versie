@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link href='/public/demoSite/html/design.css' rel='stylesheet'>
     <title>CSG Forum</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -22,11 +24,18 @@
             <!--Post container-->
             <div>
                 <h1>Welkom op het CSG Forum</h1>
-                <p id="inleiding">Dit is een forum ontwikkeld voor scholieren. Jij kunt hier als scholier hulp zoeken bij je huiswerk en/of extra uitleg over bepaalde stof krijgen. Je mede scholieren zullen je hierbij helpen.</p><hr>
-                <form action="">
-                    <textarea name="berichttypen" class="postcontainer" cols="30" rows="10" placeholder="Typ hier je vraag..."></textarea>
-                    <input type="Submit" value="Posten" id="inlogverzenden" class="inputstyle">
-                </form><br><hr>
+                <p id="inleiding">Dit is een forum ontwikkeld voor scholieren. Jij kunt hier als scholier hulp zoeken
+                    bij je huiswerk en/of extra uitleg over bepaalde stof krijgen. Je mede scholieren zullen je hierbij
+                    helpen.</p>
+                <hr>
+                <form>
+                    <fieldset>
+                        <textarea name="berichttypen" class="postcontainer" cols="30" rows="10"
+                            placeholder="Typ hier je vraag..."></textarea>
+                        <input type="Submit" value="Posten" id="inlogverzenden" class="inputstyle">
+                    </fieldset>
+                </form><br>
+                <hr>
             </div>
             <div>
                 <!--Overzicht met recente posts-->
@@ -38,4 +47,5 @@
         </footer>
     </div>
 </body>
+
 </html>

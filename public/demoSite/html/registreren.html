@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link href='/public/demoSite/html/design.css' rel='stylesheet'>
     <title>CSG Forum</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -20,16 +22,20 @@
         </header>
         <main id="inlogpagina">
             <h2>Registreren</h2>
-            <form action="">
-                <label for="gebruikersnaam" id="username">Gebruikersnaam</label><br>
-                <input type="text" class="inputstyle"><br>
-                <label for="gebruikersnaam" id="email">E-mailadres</label><br>
-                <input type="email" class="inputstyle"><br>
-                <label for="wachtwoord" id="password">Wachtwoord</label><br>
-                <input type="password" class="inputstyle"><br>
-                <label for="wachtwoord" id="password">Bevestig Wachtwoord</label><br>
-                <input type="password" class="inputstyle">
-                <input type="submit" value="Registreer" id="inlogverzenden" class="inputstyle">
+            <form>
+                <fieldset>
+                    <label for="gebruikersnaam" id="username">Gebruikersnaam</label><br>
+                    <input type="text" class="inputstyle"><br>
+                    <label for="gebruikersnaam" id="email">E-mailadres</label><br>
+                    <input type="email" class="inputstyle"><br>
+                    <label for="wachtwoord" id="password">Wachtwoord</label><br>
+                    <input type="password" class="inputstyle"><br>
+                    <!--
+                    <label for="wachtwoord" id="password">Bevestig Wachtwoord</label><br>
+                    <input type="password" class="inputstyle">
+                    -->
+                    <input type="submit" value="Registreer" id="inlogverzenden" class="inputstyle">
+                </fieldset>
             </form>
             <p>Heb je al een account? <a href="inloggen.html" id="verwijzingregistratie">Log in</a>.</p>
         </main>
@@ -38,4 +44,5 @@
         </footer>
     </div>
 </body>
+
 </html>
