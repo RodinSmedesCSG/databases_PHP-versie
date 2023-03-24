@@ -22,18 +22,14 @@
         </header>
         <main id="inlogpagina">
             <h2>Registreren</h2>
-            <form>
+            <form action="/public/demoSite/php/database.php" method="post">
                 <fieldset>
-                    <label for="gebruikersnaam" id="username">Gebruikersnaam</label><br>
+                    <label for="gebruikersnaam" id="username" name="fldName">Gebruikersnaam</label><br>
                     <input type="text" class="inputstyle"><br>
-                    <label for="gebruikersnaam" id="email">E-mailadres</label><br>
+                    <label for="gebruikersnaam" id="email" name="fldMail">E-mailadres</label><br>
                     <input type="email" class="inputstyle"><br>
-                    <label for="wachtwoord" id="password">Wachtwoord</label><br>
+                    <label for="wachtwoord" id="password" name="fldWachtwoord">Wachtwoord</label><br>
                     <input type="password" class="inputstyle"><br>
-                    <!--
-                    <label for="wachtwoord" id="password">Bevestig Wachtwoord</label><br>
-                    <input type="password" class="inputstyle">
-                    -->
                     <input type="submit" value="Registreer" id="inlogverzenden" class="inputstyle">
                 </fieldset>
             </form>

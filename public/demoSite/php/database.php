@@ -1,15 +1,14 @@
 <?php
-$check = $check.'database.php geladen.<br>';
+$check = $check . 'database.php geladen.<br>';
 $servernaam = "localhost";
-$gebruikersnaam = "root"; //$gebruikersnaam = "username";
-$wachtwoord = ""; // $wachtwoord = "password";
+$gebruikersnaam = "fldName"; //$gebruikersnaam = "username";
+$email = "fldMail";
+$wachtwoord = "fldWachtwoord"; // $wachtwoord = "password";
 $database = "ForumVoorScholierenDB";
-$DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
+$DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $email, $wachtwoord, $database);
 
 if (!$DBverbinding) {
     die("connectie database mislukt: " . mysqli_connect_error());
+} else {
+    $check = $check . 'connectie database gelukt.<br>';
 }
-else {
-    $check = $check.'connectie database gelukt.<br>';
-}
-?>
