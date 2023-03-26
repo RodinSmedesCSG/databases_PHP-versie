@@ -1,5 +1,5 @@
 # ForumVoorScholieren
-Voor scholieren van het CSG augustinus'
+Voor scholieren van het CSG augustinus!
 
 Door Rodin Smedes & Jasper Verwoerd, Atheneum 6, 2022-2023
 

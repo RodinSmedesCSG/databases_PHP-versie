@@ -17,9 +17,14 @@
     --whitesmoke: whitesmoke;
 }
 
+@font-face {
+    font-family: CSGbasic;
+    src: url(../images/CSG_Basic_v6.3.ttf);
+}
+
 * {
     /* Hier eigen font toevoegen zodra die is gemaakt */
-    font-family: sans-serif;
+    font-family: CSGbasic
 }
 
 /* Syntaxes */
@@ -45,8 +50,8 @@ header {
     padding: 10px;
     display: block;
     display: grid;
-    grid-template-areas: 
-    "img options";
+    grid-template-areas:
+        "img options";
 }
 
 nav {
@@ -118,12 +123,13 @@ fieldset {
 .logo {
     grid-area: img;
     height: 128px;
-    width: 128px;
+    width: 456px;
 }
 
 #inleiding {
     text-align: justify;
     font-size: 18px;
+    font-weight: bold;
 }
 
 #inlogpagina {
