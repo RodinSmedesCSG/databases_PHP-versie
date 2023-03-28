@@ -11,4 +11,4 @@ Graag een dankje naar Derk jan die ons heeft geholpen met een klein stukje gridb
 Ook heeft de vader van Rodin geholpen met het connecten van de databases, hier traden namelijk meerdere errors op.
 
 Let op!!!!
-De eindopdracht staat in het mapje "ForumVoorScholieren" en niet in het mapje "demoSite". In dit laatstgenoemde mapje staan nog wel bestanden van onze opdracht maar deze zijn niet up-to-date, kijk hier dus ook niet naar.
+De eindopdracht staat in het mapje "ForumVoorScholieren" en niet in het mapje "demoSite". In dit laatstgenoemde mapje staan nog wel bestanden van onze opdracht maar deze zijn niet up-to-date, kijk hier dus ook niet naar. Deze bestanden zijn later overgeplaatst en niet verwijderd uit "demoSite" om niks perongeluk te slopen.
